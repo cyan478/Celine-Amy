@@ -1,3 +1,3 @@
 # Celine-Amy
-work1
+work1 \n
 Amy is actually Jie Yu!
