@@ -4,14 +4,18 @@ hi = open("occupations.csv", "rb")
 reader = csv.reader(hi)
 dic = {}
 ctr = 0
+ll = []
 
-for occupation in reader:
-    print occupation
+#for occupation in reader:
+    #print occupation
     
 for occupation in reader:
     parsed = str(occupation).strip("[]")
     listy = parsed.split(",")
-    dic[listy[0]] = listy[1]
+    print listy
+    ll.append(listy)
+    
+    #dic[listy[0]] = listy[1]
 
-print dic
+#print dic
     
