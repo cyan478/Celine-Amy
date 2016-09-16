@@ -29,6 +29,7 @@ def modList(dic):
     return master
 
 def randomizer(alist):
+    random.shuffle(alist) #increases randomness though it is optional because chances still stay the same without shuffle
     return out + alist[random.randint(0,len(alist)-1)] 
 
 L = listify(L,reader)
